@@ -1,0 +1,52 @@
+[
+  {
+    "department": "Sales",
+    "first_name": "Rachel",
+    "identifier": "9012",
+    "last_name": "Booker",
+    "location": "Manchester",
+    "one_time_password": "12se74",
+    "recovery_code": "rb9012",
+    "username": "booker12"
+  },
+  {
+    "department": "Depot",
+    "first_name": "Laura",
+    "identifier": "2070",
+    "last_name": "Grey",
+    "location": "London",
+    "one_time_password": "04ap67",
+    "recovery_code": "lg2070",
+    "username": "grey07"
+  },
+  {
+    "department": "Depot",
+    "first_name": "Craig",
+    "identifier": "4081",
+    "last_name": "Johnson",
+    "location": "London",
+    "one_time_password": "30no86",
+    "recovery_code": "cj4081",
+    "username": "johnson81"
+  },
+  {
+    "department": "Engineering",
+    "first_name": "Mary",
+    "identifier": "9346",
+    "last_name": "Jenkins",
+    "location": "Manchester",
+    "one_time_password": "14ju73",
+    "recovery_code": "mj9346",
+    "username": "jenkins46"
+  },
+  {
+    "department": "Engineering",
+    "first_name": "Jamie",
+    "identifier": "5079",
+    "last_name": "Smith",
+    "location": "Manchester",
+    "one_time_password": "09ja61",
+    "recovery_code": "js5079",
+    "username": "smith79"
+  }
+]
