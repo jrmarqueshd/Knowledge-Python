@@ -1,11 +1,12 @@
 # dependecies
 
+import sys 
 import json
 from slugify import slugify
 
 # modules
-
-from helpers.services import CSVHelpers as csvhelpers, JSONHelpers as jsonhelpers
+sys.path.insert(0, './')
+from helpers.services import CSVHelpers as csvhelpers
 from helpers.formatters import TextFormatters as textformatters
 
 class Users:
@@ -75,6 +76,4 @@ class Users:
 
       userslist.append(userinfo)
 
-    return json.dumps(userslist, sort_keys=True, indent=2)
-
-jsonhelpers("assets/users").save(Users().getusersinfo())
+    return json.dumps(userslist, sort_keys=True, indent=2)  
